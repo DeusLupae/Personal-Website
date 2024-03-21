@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Thea Blakley">
+        <meta name="description" content="The settings page for my website">
+        <title>Settings</title>
+        <link rel="stylesheet" href="Formatting/center.css" type="text/css">
+        <link rel="stylesheet" href="Formatting/button.css" type="text/css">
+    </head>
+
+    <body>
+        <h1 id="settingsHeading">Settings</h1>
+        <h2 id="settingsSub1">Here you can change the language, theme, and others.</h2>
+        <form name="settingsForm" id="settingsForm">
+            <label for="langChange" id="settingsDropdownLabel">Language:</label>
+            <select name="langChange" id="langChange">
+                <option value="langEng" selected>English</option>
+                <option value="langEsp">Espa&#241;ol</option>
+                <option value="langLat">Lingua Latina</option>
+            </select>
+        </form>
+        <button type="button" id="langChangeTest" onclick="langChange();">Apply</button>
+        <p id="testLang">Testing...</p>
+        <br>
+        <button id="backButton" type="button" onclick="window.location.href='index.html'">&#8592</button>
+        <script>
+            function langChange() {
+                var langSel = document.getElementById("langChange").value;
+                if (langSel === "langEng") {
+                    langSetEng();
+                } else if (langSel === "langEsp") {
+                    langSetEsp();
+                } else if (langSel === "langLat") {
+                    langSetLat();
+                } else {
+                    langFail();
+                }
+            }
+
+            function langSetEng() {
+                document.getElementById("testLang").innerHTML = "It Works!"
+            }
+
+            function langSetEsp() {
+                document.getElementById("testLang").innerHTML = "¡Se funcciona!"
+            }
+
+            function langSetLat() {
+                document.getElementById("testLang").innerHTML = "Operat!"
+            }
+
+            function langTest() {
+                document.getElementById("testLang").innerHTML = "This is not your problem."
+            }
+
+            function langFail() {
+                document.getElementById("testLang").innerHTML = "Uh-Oh!"
+            }
+        </script>
+    </body>
+</html>
