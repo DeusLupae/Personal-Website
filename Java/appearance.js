@@ -10,8 +10,6 @@ function lightTheme() {
     element.insertBefore(darkButton2,child);
     darkButton2.setAttribute('id','darkButton')
     darkButton2.setAttribute('onclick','darkTheme();')
-    const lightEvent = new CustomEvent("lightEvent");
-    document.dispatchEvent(lightEvent);
 }
 
 function darkTheme() {
@@ -26,6 +24,4 @@ function darkTheme() {
     element.insertBefore(lightButton2,child);
     lightButton2.setAttribute('id','lightButton')
     lightButton2.setAttribute('onclick','lightTheme()')
-    const darkEvent = new Event("darkEvent");
-    document.dispatchEvent(darkEvent);
 }
