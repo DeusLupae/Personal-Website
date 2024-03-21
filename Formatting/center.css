@@ -36,15 +36,15 @@ a:visited {
     margin-top: 0px;
 }
 
-#bodyText {
+.bodyText {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 1.5%;
     margin-right: 1.5%;
 }
 
-#bodyDescriptor {
+.bodyDescriptor {
     font-size: 13px;
     line-height: 1;
-    margin: 0;
+    margin-top: 0;
     padding: 0;
 }
