@@ -5,8 +5,9 @@
         <meta name="description" content="Todo sobre yo">
         <meta charset="UTF-8">
         <title>Sobre</title>
-        <link rel="stylesheet" href="../Formatting/center.css" type="text/css">
+        <link rel="stylesheet" href="../Formatting/center.css" type="text/css" id="mainFormat">
         <link rel="stylesheet" href="../Formatting/button.css" type="text/css">
+        <script src="../Java/aparencia.js"></script>
     </head>
 
     <body>
@@ -32,5 +33,13 @@
         <br>
         <button id="backButton" type="button" onclick="window.location.href='hogar.html'">&#8592</button>
         <!-- <p>Return to <a href="index.html">Homepage</a></p> -->
+        <br><hr>
+        <footer>
+            <div id="themeDiv">
+                <button type="button" onclick="window.location.href='../about.html'">English</button>
+                <button type="button" id="lightButton" onclick="lightTheme();">Ver in Modo Blanco</button>
+                <br id="testTheme">
+            </div>
+        </footer>
     </body>
 </html>

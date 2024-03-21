@@ -6,8 +6,9 @@
         <meta name="author" content="Thea Blakley">
         <meta name="description" content="La Casa de Thea Blakley.">
         <title>Domus Cogitatorii</title>
-        <link rel="stylesheet" href="../Formatting/center.css" type="text/css">
+        <link rel="stylesheet" href="../Formatting/center.css" type="text/css" id="mainFormat">
         <link rel="stylesheet" href="../Formatting/button.css" type="text/css">
+        <script src="../Java/aparencia.js"></script>
     </head>
 
     <body>
@@ -30,8 +31,14 @@
         <button type="button" onclick="window.location.href='contactar.html'">Contactar</button>
         <button type="button" onclick="window.location.href='sobre.html'">Sobre</button>
         <!-- <button type="button" onclick="window.location.href='settings.html'">Settings</button> -->
-        <br><br>
-        <button type="button" onclick="window.location.href='../index.html'">English</button>
+        <br><hr>
+        <footer>
+            <div id="themeDiv">
+                <button type="button" onclick="window.location.href='../index.html'">English</button>
+                <button type="button" id="lightButton" onclick="lightTheme();">Ver in Modo Blanco</button>
+                <br id="testTheme">
+            </div>
+        </footer>
     </body>
 
 

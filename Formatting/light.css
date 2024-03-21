@@ -1,23 +1,19 @@
 body {
-    background-color: #333;
-    color: white;
+    background-color: white;
+    color: #333;
     text-align: center;
 }
 
-a:hover {
-    color: chocolate;
-}
-
 a:active {
-    color: coral;
+    color: red;
 }
 
 a {
-    color: orange;
+    color: blue;
 }
 
 a:visited {
-    color: red;
+    color: purple;
 }
 
 #head1 {

@@ -5,8 +5,9 @@
         <meta name="description" content="All about me.">
         <meta charset="UTF-8">
         <title>About</title>
-        <link rel="stylesheet" href="Formatting/center.css" type="text/css">
+        <link rel="stylesheet" href="Formatting/center.css" type="text/css" id="mainFormat">
         <link rel="stylesheet" href="Formatting/button.css" type="text/css">
+        <script src="Java/appearance.js"></script>
     </head>
 
     <body>
@@ -32,5 +33,13 @@
         <br>
         <button id="backButton" type="button" onclick="window.location.href='index.html'">&#8592</button>
         <!-- <p>Return to <a href="index.html">Homepage</a></p> -->
+        <br><hr>
+        <footer>
+            <div id="themeDiv">
+                <button type="button" onclick="window.location.href='Spanish/sobre.html'" id="langButton">Espa&#241;ol</button>
+                <button type="button" id="lightButton" onclick="lightTheme();">View in Light</button>
+                <br id="testTheme">
+            </div>
+        </footer>
     </body>
 </html>

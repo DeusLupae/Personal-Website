@@ -5,9 +5,10 @@
         <meta name="author" content="Thea Blakley">
         <meta name="description" content="Mi horario de cursos.">
         <title>Cursos</title>
-        <link rel="stylesheet" href="../Formatting/center.css" type="text/css">
+        <link rel="stylesheet" href="../Formatting/center.css" type="text/css" id="mainFormat">
         <link rel="stylesheet" href="../Formatting/button.css" type="text/css">
-        <link rel="stylesheet" href="../Formatting/schedule.css" type="text/css">
+        <link rel="stylesheet" href="../Formatting/schedule.css" type="text/css" id="tableFormat">
+        <script src="../Java/temaDeMesa.js"></script>
     </head>
 
     <body>
@@ -108,5 +109,13 @@
         <button id="backButton" type="button" onclick="window.location.href='horario.html'">&#8592;</button>
         <button id="homeButton" type="button" onclick="window.location.href='hogar.html'">&#8962;</button>
         <!-- <p>Return to <a href="index.html">Homepage</a> </p> -->
+        <br><hr>
+        <footer>
+            <div id="themeDiv">
+                <button type="button" onclick="window.location.href='../classes.html'">English</button>
+                <button type="button" id="lightButton" onclick="lightTheme();">Ver in Modo Blanco</button>
+                <br id="testTheme">
+            </div>
+        </footer>
     </body>
 </html>
