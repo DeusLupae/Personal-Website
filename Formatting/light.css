@@ -44,3 +44,13 @@ a:visited {
     margin: 0;
     padding: 0;
 }
+
+#quoteAuthor {
+    font-size: 12px
+}
+
+#resetButton {
+    padding: 5px 20px;
+    font-size: 12px;
+    background-color: red;
+}

@@ -48,3 +48,7 @@ a:visited {
     margin-top: 0;
     padding: 0;
 }
+
+#quoteAuthor {
+    font-size: 12px
+}
