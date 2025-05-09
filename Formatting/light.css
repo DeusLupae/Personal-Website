@@ -54,3 +54,18 @@ a:visited {
     font-size: 12px;
     background-color: red;
 }
+
+.comicList {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: left;
+}
+
+.comicPics {
+    align-items: center;
+}
+
+.subtitleText {
+    font-size: 12px;
+}

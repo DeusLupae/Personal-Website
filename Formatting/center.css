@@ -52,3 +52,18 @@ a:visited {
 #quoteAuthor {
     font-size: 12px
 }
+
+.subtitleText {
+    font-size: 12px;
+}
+
+.comicList {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: left;
+}
+
+.comicPics {
+    align-items: center;
+}

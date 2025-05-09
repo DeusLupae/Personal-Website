@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Thea Blakley">
+        <meta name="description" content="My current Harley Quinn collection.">
+        <title>Harlequin of Harley Quinn</title>
+        <link rel="stylesheet" href="Formatting/center.css" type="text/css" id="mainFormat">
+        <link rel="stylesheet" href="Formatting/button.css" type="text/css">
+        <script src="Java/appearance.js"></script>
+    </head>
+
+    <body>
+        <h1 id="topOfPage" class="head2">Welcome to my collection!</h1>
+        <p class="bodyText">This is my collection of Harley Quinn comics and memorabilia. You can see what I own, as well as pictures and other info.</p>
+        <p class="subtitleText">Updated 5/9/25</p>
+        <br>
+        <div id="comListButDiv"><button type="button" class="showButton" id="comListButton" onclick="showList()">List What I Own</button><br></div>
+        <div id="comicDiv" hidden>
+            <h2>I currently own:</h2>
+            <ul>
+                <li class="comicList">The Batman Adventures issue 12 CGC 9.2 First Appearance of Harley Quinn</li>
+                <li class="comicList">Harleen (DC Black Label) book 1</li>
+                <li class="comicList">Harley Quinn (2021) issues 46 and 47</li>
+                <li class="comicList">Harley Quinn Suicide Squad Jacket</li>
+                <li class="comicList">Harley Quinn Suicide Squad Bat</li>
+            </ul>
+            <br>
+        </div>
+        <div id="picButDiv"><button type="button" class="showButton" id="picButton" onclick="showPics()">See Pictures</button><br></div>
+        <div id="picDiv" hidden>
+            <h2>Images:</h2>
+            <img src="" alt="" id="mainPic" class="comicPics"><br>
+            <img src="" alt="" class="comicPics"><br> <!-- First Appearance -->
+            <img src="" alt="" class="comicPics"><br> <!-- Harleen bk 1 -->
+            <img src="" alt="" class="comicPics"><br> <!-- HQ 21 issue 46 -->
+            <img src="" alt="" class="comicPics"><br> <!-- HQ 21 issue 47-->
+            <img src="" alt="" class="comicPics"><img src="" alt="" class="comicPics"><br> <!-- SS Jacket f/b -->
+            <img src="" alt="" class="comicPics"><img src="" alt="" class="comicPics"><br> <!-- SS Bat f/b -->
+        </div>
+        <br>
+        <div id="backDiv">
+            <button class="pageNav" id="backButton" type="button" onclick="window.location.href='about.html'">&#8592;</button>
+            <button class="pageNav" id="homeButton" type="button" onclick="window.location.href='index.html'">&#8962;</button>
+            <button class="pageNav" id="topButton" type="button" style="display: none;" onclick="window.location.href='#'">^</button>
+        </div>
+        <br><hr>
+        <div id="themeDiv">
+            <button type="button" id="lightButton" onclick="lightTheme();">View in Light</button>
+            <br id="testTheme">
+        </div>
+        <script src="Java/comList.js"></script>
+    </body>
+</html>

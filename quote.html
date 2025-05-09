@@ -12,15 +12,15 @@
     </head>
 
     <body id="docBody">
-        <h1>My favorite quotes!</h1>
+        <h1 id="head2">My favorite quotes!</h1>
         <p>Click the button below to get a random of my favorite quotes! Or, get them all listed.</p>
         <div id="listDiv" hidden></div>
-        <div id="quoteButDiv"><button type="button" id="quoteButton" onclick="giveQuote();">Give Me a Quote</button><br></div>
-        <div id="listButDiv"><button type="button" id="listButton" onclick="listQuotes();">List the Quotes</button><br></div>
+        <div id="quoteButDiv"><button class="showButton" type="button" id="quoteButton" onclick="giveQuote();">Give Me a Quote</button><br></div>
+        <div id="listButDiv"><button class="showButton" type="button" id="listButton" onclick="listQuotes();">List the Quotes</button><br></div>
         <div id="endDiv"></div>
         <br><br>
-        <button id="backButton" type="button" onclick="window.location.href='about.html'">&#8592;</button>
-        <button id="homeButton" type="button" onclick="window.location.href='index.html'">&#8962;</button>
+        <button class="pageNav" id="backButton" type="button" onclick="window.location.href='about.html'">&#8592;</button>
+        <button class="pageNav" id="homeButton" type="button" onclick="window.location.href='index.html'">&#8962;</button>
         <br><hr>
         <div id="themeDiv">
             <!-- <button type="button" onclick="window.location.href='Spanish/hogar.html'" id="langButton">Espa&#241;ol</button> -->
