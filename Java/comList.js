@@ -4,7 +4,9 @@ const comDiv = document.getElementById('comicDiv');
 const picDiv = document.getElementById('picDiv');
 const comListButton = document.getElementById('comListButton');
 const picButton = document.getElementById('picButton');
-const topButton = document.getElementById('topButton')
+const topButton = document.getElementById('topButton');
+const vol4Div = document.getElementById('vol4Div');
+const vol4But = document.getElementById('vol4But');
 
 function showList() {
     if (comDiv.hidden) {
@@ -31,5 +33,15 @@ function showPics () {
         if (comDiv.hidden) {
             topButton.style.display = "none"
         }
+    }
+}
+
+function vol4Show() {
+    if (vol4Div.hidden) {
+        vol4Div.hidden = false;
+        vol4But.innerText = "Hide";
+    } else {
+        vol4Div.hidden = true;
+        vol4But.innerText = "Show";
     }
 }

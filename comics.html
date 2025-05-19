@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="author" content="Thea Blakley">
         <meta name="description" content="My current Harley Quinn collection.">
-        <title>Harlequin of Harley Quinn</title>
+        <title>The Harlequinade</title>
         <link rel="stylesheet" href="Formatting/center.css" type="text/css" id="mainFormat">
         <link rel="stylesheet" href="Formatting/button.css" type="text/css">
         <script src="Java/appearance.js"></script>
@@ -16,26 +16,33 @@
         <p class="bodyText">This is my collection of Harley Quinn comics and memorabilia. You can see what I own, as well as pictures and other info.</p>
         <p class="subtitleText">Updated 5/9/25</p>
         <br>
-        <div id="comListButDiv"><button type="button" class="showButton" id="comListButton" onclick="showList()">List What I Own</button><br></div>
+        <div id="comListButDiv"><button type="button" class="showButton" id="comListButton" onclick="showList();">List What I Own</button><br></div>
         <div id="comicDiv" hidden>
             <h2>I currently own:</h2>
             <ul>
                 <li class="comicList">The Batman Adventures issue 12 CGC 9.2 First Appearance of Harley Quinn</li>
-                <li class="comicList">Harleen (DC Black Label) book 1</li>
-                <li class="comicList">Harley Quinn (2021) issues 46 and 47</li>
+                <li class="comicList">Harleen (DC Black Label) collection</li>
+                <li class="comicList">Harley Quinn volume 4 issues 8, 46–48, and annual 1</li>
+                <li class="comicList">Harley Quinn 30th Anniversary Special</li>
                 <li class="comicList">Harley Quinn Suicide Squad Jacket</li>
                 <li class="comicList">Harley Quinn Suicide Squad Bat</li>
             </ul>
             <br>
         </div>
-        <div id="picButDiv"><button type="button" class="showButton" id="picButton" onclick="showPics()">See Pictures</button><br></div>
+        <div id="picButDiv"><button type="button" class="showButton" id="picButton" onclick="showPics();">See Pictures</button><br></div>
         <div id="picDiv" hidden>
             <h2>Images:</h2>
             <p class="bodyText">My Harley Wall:</p><img src="" alt="" id="mainPic" class="comicPics"><br>
             <p class="bodyText">Harley Quinn First Appearance:</p><img src="" alt="" class="comicPics"><br>
             <p class="bodyText">Harleen book 1:</p><img src="" alt="" class="comicPics"><br>
-            <p class="bodyText">HQ 21 issue 46:</p><img src="" alt="" class="comicPics"><br>
-            <p class="bodyText">HQ 21 issue 47:</p><img src="" alt="" class="comicPics"><br>
+            <p class="bodyText">Harley Quinn Volume 4: <a id="vol4But" href="javascript:vol4Show()">(Show)</a></p>
+                <div id="vol4Div" hidden>
+                    <p class="bodyText">HQ issue 8:</p><img src="" alt="" class="comicPics"><br>
+                    <p class="bodyText">HQ issue 46:</p><img src="" alt="" class="comicPics"><br>
+                    <p class="bodyText">HQ issue 47:</p><img src="" alt="" class="comicPics"><br>
+                    <p class="bodyText">HQ issue 48:</p><img src="" alt="" class="comicPics"><br>
+                    <p class="bodyText">HQ annual issue 1:</p><img src="" alt="" class="comicPics"><br>
+                </div>
             <p class="bodyText">SS Jacket:</p><img src="" alt="" class="comicPics"><img src="" alt="" class="comicPics"><br>
             <p class="bodyText">SS Bat:</p><img src="" alt="" class="comicPics"><img src="" alt="" class="comicPics"><br>
         </div>
