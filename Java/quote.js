@@ -49,7 +49,7 @@ const quotes = [
     },
     {
         text: "Hope in the shadow of fear is the world’s most powerful motivator.",
-        author: "Neal Shusterman, <i>Scythe<i>"
+        author: "Neal Shusterman, <i>Scythe</i>"
     },
 ];
 
