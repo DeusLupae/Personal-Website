@@ -51,6 +51,10 @@ const quotes = [
         text: "Hope in the shadow of fear is the world’s most powerful motivator.",
         author: "Neal Shusterman, <i>Scythe</i>"
     },
+    {
+        text: "I decided as long as I'm going to hell, I might as well do it thoroughly.",
+        author: "Stephanie Meyer, <i>Twilight<i>"
+    }
 ];
 
 function randInt() {
