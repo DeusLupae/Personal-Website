@@ -54,6 +54,10 @@ const quotes = [
     {
         text: "I decided as long as I'm going to hell, I might as well do it thoroughly.",
         author: "Stephanie Meyer, <i>Twilight<i>"
+    },
+    {
+        text: "Every time someone steps up and says who they are, the world becomes a better, more interesting place.",
+        author: "Raymond Holt, <i>Brooklyn Nine-Nine<i>"
     }
 ];
 
