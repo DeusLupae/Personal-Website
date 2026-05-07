@@ -58,6 +58,18 @@ const quotes = [
     {
         text: "Every time someone steps up and says who they are, the world becomes a better, more interesting place.",
         author: "Raymond Holt, <i>Brooklyn Nine-Nine<i>"
+    },
+    {
+        text: "Someone will remember us.",
+        author: "Sappho"
+    },
+    {
+        text: "Whenever you find yourself on the side of the majority, it is time to pause and reflect.",
+        author: "Mark Twain"
+    },
+    {
+        text: "Fairy tales are more than true: not because they tell us dragons exist, but because they tell us dragons can be beaten.",
+        author: "Neil Gaiman"
     }
 ];
 
